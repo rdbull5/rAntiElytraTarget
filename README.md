@@ -11,6 +11,13 @@ Bu plugin tamamen ücretsizdir fakat isminin değiştirilmesi, kopyalanması, pa
 
 Authors: @rdbull. & @rest.d
 
+# Config
+max-logs: 7 # Oyuncu kaç log verince işlem uygulansın?
+log-reset-seconds: 15 # Oyuncunun logu kaç saniyede bir sıfırlansın?
+alert-message: "&c&l[Uyarı] &e%player% &6Elytra target şüphesi! &7[x%count%]" # Şüphe mesajı.
+ban-command: "ban %player% %reason%" # Hangı komutla işlem uygulansın?
+ban-reason: "Elytra target tespit edildi." # Hangi sebeple banlansın?
+
 # Commands:
 /rantielytratarget reload
 
