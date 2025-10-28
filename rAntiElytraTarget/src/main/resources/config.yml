@@ -1,6 +1,30 @@
-# Bu ayarlar önerilen ayarlardır, bir hata bulduysanız veya öneri yapmak istiyorsanız discord: rdbull. ulaşabilirsiniz.
-max-logs: 7 # Oyuncu kaç log verince işlem uygulansın?
-log-reset-seconds: 15 # Oyuncunun logu kaç saniyede bir sıfırlansın?
-alert-message: "&c&l[Uyarı] &e%player% &6Elytra target şüphesi! &7[x%count%]" # Şüphe mesajı.
-ban-command: "ban %player% %reason%" # Hangı komutla işlem uygulansın?
-ban-reason: "Elytra target tespit edildi." # Hangi sebeple banlansın?
+# rAntiElytraTarget Configuration
+# Authors: rdbull. & rest.d
+
+# Maximum violations before ban is executed
+max-violations: 10
+
+# Time window in seconds for violation tracking
+# After this time, violations reset
+time-window-seconds: 3
+
+# Minimum time between slot switches in milliseconds
+# Switches faster than this are considered suspicious
+min-switch-interval-ms: 50
+
+# Number of consecutive rapid switches required to count as a violation
+consecutive-switches-required: 5
+
+# Alert message sent to staff members
+# Placeholders: %player%, %count%, %max%
+alert-message: "&c&l[Anti-Cheat] &e%player% &6suspicious elytra targeting detected! &7[%count%/%max%]"
+
+# Command executed when max violations reached
+# Placeholders: %player%, %reason%
+ban-command: "ban %player% %reason%"
+
+# Ban reason
+ban-reason: "Elytra target hacks detected"
+
+# Enable debug mode (logs detailed information)
+debug-mode: false
