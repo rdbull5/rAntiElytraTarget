@@ -1,0 +1,20 @@
+name: rAntiElytraTarget
+version: '${project.version}'
+main: com.example.rantielytratarget.RAntiElytraTarget
+api-version: '1.16'
+author: rdbull. & rest.d
+description: Gelişmiş anti elytra target plugini.
+
+commands:
+  rantielytratarget:
+    usage: /<command> reload
+    permission: rantielytratarget.reload
+
+permissions:
+  rantielytratarget.alert:
+    description: Gelen elytra target loglarını görme yetkisi.
+    default: op
+
+  rantielytratarget.reload:
+    description: Configi yeniden yükleme yetkisi.
+    default: op
