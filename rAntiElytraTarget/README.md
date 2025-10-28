@@ -8,3 +8,13 @@ Bu plugin tamamen ücretsizdir fakat isminin değiştirilmesi, kopyalanması, pa
 İletişim için discord: @rdbull.
 
 Authors: @rdbull. & @rest.d
+
+# Commands:
+/rantielytratarget reload
+
+# Permissions:
+rantielytratarget.alert
+Gelen elytra target loglarını görme yetkisi.
+
+rantielytratarget.reload
+Configi yeniden yükleme yetkisi.
