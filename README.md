@@ -9,16 +9,12 @@ Bu plugin tamamen ücretsizdir fakat isminin değiştirilmesi, kopyalanması, pa
 
 Authors: @rdbull. & @rest.d
 
-commands:
-  rantielytratarget:
-    usage: /<command> reload
-    permission: rantielytratarget.reload
+# Commands:
+/rantielytratarget reload
 
-permissions:
-  rantielytratarget.alert:
-    description: Gelen elytra target loglarını görme yetkisi.
-    default: op
+# Permissions:
+rantielytratarget.alert
+Gelen elytra target loglarını görme yetkisi.
 
-  rantielytratarget.reload:
-    description: Configi yeniden yükleme yetkisi.
-    default: op
+rantielytratarget.reload
+Configi yeniden yükleme yetkisi.
