@@ -1,3 +1,5 @@
+https://discord.gg/UyTwKtj25Z
+
 # rAntiElytraTarget;
 
 Pluginin amacı elytra target hilesini kullananları yakalamak üzerinedir. Config dosyasından her şey değiştirilebilir.
@@ -18,3 +20,4 @@ Gelen elytra target loglarını görme yetkisi.
 
 rantielytratarget.reload
 Configi yeniden yükleme yetkisi.
+
